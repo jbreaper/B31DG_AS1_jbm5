@@ -1,3 +1,5 @@
+// programmed for the "DOIT ESP32 DEVKIT V1" board
+
 #define int a = 1300;  // m = 13 => 1300 nano-seconds
 #define int b = 100;   // a = 1  => 100  nano-seconds
 #define int c = 9;     // v = 5  => 9
@@ -10,21 +12,23 @@
 #define PB1
 #define PB2
 
-switch(cMode){
-  case 1:
-    
-    break;
-  case 2:
-    break;
-  case 3:
-    break;
-  case 4:
-    break;
-  default:
-    
-    break;
-}
+
 
 void loop(){
+  
+  switch(mode){
+    case 1:
+      
+      break;
+    case 2:
+      break;
+    case 3:
+      break;
+    case 4:
+      break;
+    default:
+      
+      break;
+  }
   
 }
