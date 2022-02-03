@@ -15,6 +15,9 @@
 #define MODE    2     // r = 9  => 2
 #define SECONDS 1000
 
+volatile bool button_1 = false;
+volatile bool button_2 = false;
+
 const bool testing = true;
 
 #define TEST (testing*SECONDS)
@@ -25,34 +28,34 @@ void setup() {
 
   pinMode(PB1, INPUT);
   pinMode(PB2, INPUT);
+
+  attachInterrupt(PB1, bp1_flip, RISING);
+  attachInterrupt(PB2, bp2_flip, RISING);
+}
+
+void bp1_flip(){
+  (button_1 != button_1);
+}
+void bp2_flip(){
+  (button_2 != button_2);
 }
 
 void signal(unsigned int pulse_width, unsigned int rest_width, unsigned int pulse_count, unsigned int block_rest, bool direction) {
-
-
   for (int i = 0; i++; i < pulse_count) {
     int x = direction * pulse_count;
-
+    digitalWrite(SIGA, HIGH);
     delayMicroseconds((pulse_width + (50 * (abs(x - i))))*TEST);
   }
 }
 
 
 void loop() {
+    bool current_bp1 = button_1;
+    bool current_bp2 = button_2;
+    
+    digitalWrite(SIGB, HIGH);
+    delayMicroseconds(50*TEST);
+    digitalWrite(SIGB, HIGH);
 
-  switch (MODE) {
-    case 1:
-      delayMicroseconds(A);
-      break;
-    case 2:
-      break;
-    case 3:
-      break;
-    case 4:
-      break;
-    default:
-
-      break;
-  }
-
+    signal(A, B, C, D, current_bp2);
 }
