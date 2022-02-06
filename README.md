@@ -5,7 +5,7 @@
 ###### H00298763
 
 ## Tasks
-- [ ] Write a program for ESP32 boared producing an output signals specified
+- [x] Write a program for ESP32 boared producing an output signals specified
     - [x] Create Nassi-Shneiderman diagram
     - [x] Write code based on the Nassi-Shneiderman diagram
     - [x] Ensure readibility of code
