@@ -7,7 +7,7 @@
 
 
 ## calculating initial parameters
-a=1, b=2, c=3, d=4, e=5, f=6, g=7, h=8, i=9, j=10, k=11, l=12, m=13, n=13, o=12, p=11, q=10, r=9, s=8, t=7, u=6, v=5, w=4, x=3, y=2, z=1
+|a=1|b=2|c=3|d=4|e=5|f=6|g=7|h=8|i=9|j=10|k=11|l=12|m=13|n=13|o=12|p=11|q=10|r=9|s=8|t=7|u=6|v=5|w=4|x=3|y=2|z=1|
 
 |Parameter|Description|Letter|Value|
 |:---:|:---:|:---:|:---:|
