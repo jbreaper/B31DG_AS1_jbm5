@@ -4,4 +4,4 @@
 ### Jack B. Mavor
 ### H00298763
 
-![n-s diagram](Signal_Generator.pdf)
+[embed](Signal_Generator.pdf)[/embed]
