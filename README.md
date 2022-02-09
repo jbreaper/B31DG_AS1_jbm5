@@ -36,7 +36,7 @@
 
 |Parameter|Description|Letter|Value|
 |:---:|:---:|:---:|:---:|
-|a|width of 1^st pulse|M|1300 μs|
+|a|width of 1<sup>st</sup> pulse|M|1300 μs|
 |b|width of space between pulses|A|100 μs|
 |c|number of pulses per block|V|9|
 |d|space between pulse blocks|O|6000 μs|
@@ -50,5 +50,5 @@
 |~~4~~|~~Half d and b time until switch set back to 0~~|
 
 
-##n-s diagram
+## n-s diagram
 ![n-s diagram](Signal_Generator.png)
