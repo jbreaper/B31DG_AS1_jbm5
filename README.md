@@ -19,6 +19,7 @@ This repository was created to work with my VSCode environment and workflow, to 
 - [ ] Submission
     - [ ] Submit source files
     - [ ] Submit Nassi-Shneiderman diagram
+    - [ ] Submit revision history
 
 ## Calculating Initial Parameters
 |Letter|Letter|Number|
