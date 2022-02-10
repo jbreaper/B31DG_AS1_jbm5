@@ -4,6 +4,9 @@
 ###### Jack B. Mavor
 ###### H00298763
 
+## [Main .ino File](/em_as1_jbm5/em_as1_jbm5.ino)
+
+
 ## Tasks
 - [x] Write a program for ESP32 boared producing an output signals specified
     - [x] Create Nassi-Shneiderman diagram
@@ -17,7 +20,7 @@
     - [ ] Submit source files
     - [ ] Submit Nassi-Shneiderman diagram
 
-## calculating initial parameters
+## Calculating Initial Parameters
 |Letter|Letter|Number|
 |:---:|:---:|:---:|
 |A|Z|1|
@@ -50,5 +53,5 @@
 |~~4~~|~~Half d and b time until switch set back to 0~~|
 
 
-## n-s diagram
+## N-S Diagram
 ![n-s diagram](Signal_Generator.png)
