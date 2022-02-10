@@ -5,7 +5,7 @@
 ###### H00298763
 
 ## [Main .ino File](/em_as1_jbm5/em_as1_jbm5.ino)
-
+This repository was created to work with my VSCode environment and workflow, to this end there are files within this repository that are meant to setup and maintain that environment. The only file required to run the project is the file "em_as1_jbm1.ino", all other files are either part of the VSCode workflow, or other documents related to the project.
 
 ## Tasks
 - [x] Write a program for ESP32 boared producing an output signals specified
