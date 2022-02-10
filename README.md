@@ -16,10 +16,10 @@ This repository was created to work with my VSCode environment and workflow, to 
 - [ ] Demonstration
     - [ ] Demonstraite the code during a lab session
     - [ ] Show commit history
-- [ ] Submission
-    - [ ] Submit source files
-    - [ ] Submit Nassi-Shneiderman diagram
-    - [ ] Submit revision history
+- [x] Submission
+    - [x] Submit source files
+    - [x] Submit Nassi-Shneiderman diagram
+    - [x] Submit revision history
 
 ## Calculating Initial Parameters
 |Letter|Letter|Number|
